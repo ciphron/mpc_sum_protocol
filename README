@@ -1,0 +1,8 @@
+This project contains implementations in C++ and Sage of two multi-round multi-party computation protocols for summation.
+
+The two protocols are:
+
+KDK (Kursawe, Danezis and Kohlweiss) from their paper at http://www.msr-waypoint.com/pubs/146092/main.pdf. We implement both the single-round and multi-round protocols (the latter uses bilinear pairings). The pairing-friendly elliptic curve we use is a 254-bit BN curve (namely. E_{2, 254} from Table 1 in http://eprint.iacr.org/2010/429.pdf).
+
+PCL (Patsakis, Clear and Laird) from the paper at https://eprint.iacr.org/2013/661.pdf
+
