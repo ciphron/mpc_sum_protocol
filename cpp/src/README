@@ -1,0 +1,2 @@
+This code requires MIRACL library version 5 (the version we used was https://github.com/CertiVox/MIRACL/commit/6d7bb13285e7962ccfa110b4149fa8a63db2ed52).
+On a 64-bit Linux machine, compile MIRACL with ./linux64 from the command line, place the files in this directory into MIRACL's src directory, and run make.
